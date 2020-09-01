@@ -1,5 +1,9 @@
 body {
     background: #4E8098;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 main {
@@ -14,8 +18,13 @@ main {
 }
 
  .middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #FCF7F8;
     height: 115px;
+    font-family: 'Rock Salt', cursive;
+    font-size: 3rem;
  }
 
  .bottom {
