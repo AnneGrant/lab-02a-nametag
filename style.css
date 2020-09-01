@@ -1,0 +1,39 @@
+body {
+    background: #4E8098;
+}
+
+main {
+    background: #A31621;
+    border-radius: 15px;
+    width: 375px;
+    text-align: center;
+}
+
+.top {
+    height: 120px;
+}
+
+ .middle {
+    background: #FCF7F8;
+    height: 115px;
+ }
+
+ .bottom {
+    height: 20px;
+ }
+
+ .hello {
+     font-size: 4.5rem;
+     line-height: 1.2;
+     color: #FCF7F8;
+     font-family: 'Montserrat Alternates', sans-serif;
+     font-weight: 900;
+ }
+
+ .my-name-is {
+     font-size: 1.75rem;
+     line-height: .5;
+     color: #FCF7F8;
+     font-family: 'Kanit', sans-serif;
+     font-weight: 400;
+ }
