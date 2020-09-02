@@ -19,12 +19,14 @@ main {
 
  .middle {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #FCF7F8;
     height: 115px;
     font-family: 'Rock Salt', cursive;
-    font-size: 3rem;
+    font-size: 1.25rem;
+    line-height: .5;
  }
 
  .bottom {
@@ -45,4 +47,16 @@ main {
      color: #FCF7F8;
      font-family: 'Kanit', sans-serif;
      font-weight: 400;
+ }
+
+ #name-output {
+
+ }
+
+ #name-input {
+
+ }
+
+ #name-button {
+
  }
