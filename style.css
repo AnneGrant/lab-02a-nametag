@@ -1,6 +1,7 @@
 body {
     background: #4E8098;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -19,13 +20,12 @@ main {
 
  .middle {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #FCF7F8;
     height: 115px;
     font-family: 'Rock Salt', cursive;
-    font-size: 1.25rem;
+    font-size: 2rem;
     line-height: .5;
  }
 
@@ -49,14 +49,8 @@ main {
      font-weight: 400;
  }
 
- #name-output {
-
- }
-
- #name-input {
-
- }
-
- #name-button {
-
- }
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
